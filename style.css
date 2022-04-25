@@ -1,0 +1,74 @@
+body{
+    background-color: #000;
+    font-family: 'Press Start 2P', cursive;
+    color: #FFF;
+    font-size: 1.5vw;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+/*
+TABLES
+*/
+table, th, td{
+    margin-left: 0;
+    margin-right: 0;
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 65em;
+    padding: 15px;
+    text-align: left;
+}
+th{
+    height: 15px;
+    background-color: #060d43;
+}
+table{
+    height:75vh;
+}
+/*
+COLORED CELL
+*/
+#can{
+    color: #d00000;
+    background-color: #d000001c;
+}
+#del{
+    color: #ffb703;
+    background-color: #ffb7031c;
+}
+#arr{
+    color: #38b000;
+    background-color: #38b0001c;
+}
+#t1{
+    background-color: #150b21aa;
+}
+#t2{
+    background-color: #1c0035aa;
+}
+
+@media screen and (max-height: 500px){
+    table{
+        height: 0px;
+    }
+}
+@media screen and (max-height: 400px ){
+    table{
+        height: 5px;
+    }    
+    table, th, td{
+        border: 1px solid white;
+        border-collapse: collapse;
+        width: 64em;
+        padding: 5px;
+        text-align: left;
+    }
+    h1, h2{
+        font-size: 15px;
+    }
+}
